@@ -10,6 +10,7 @@
   "scripts": {
     "build": "tsc",
     "version": "git add -A src",
+    "postinstall": "tsc",
     "postversion": "git push && git push --tags"
   },
   "repository": {
