@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "version": "git add -A src",
-    "postinstall": "tsc",
+    "postinstall": "cd node_modules/typescript-express-openapi/ && tsc",
     "postversion": "git push && git push --tags"
   },
   "repository": {
